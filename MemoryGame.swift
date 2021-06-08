@@ -45,7 +45,7 @@ struct MemoryGame<CardContent> where CardContent: Equatable{
          
         cards.shuffle()
     }
-    
+     
     struct Card: Identifiable {
         var isFaceUp: Bool = false {
             didSet {
